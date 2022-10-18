@@ -1,6 +1,6 @@
 .PHONY:		clean
 
-CXXFLAGS=	-Wall -Wextra -g
+CXXFLAGS=	-Wall -Wextra -g -O
 OBJECT	=	$(SOURCE:.cpp=.o)
 
 $(BINARY): $(OBJECT)
